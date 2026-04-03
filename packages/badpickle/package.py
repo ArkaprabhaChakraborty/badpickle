@@ -37,7 +37,7 @@ def _restore(real_pkg_bytes):
     return pickle.loads(real_pkg_bytes)
 
 
-class Evildep(Package):
+class BadPickle(Package):
     homepage = "https://spack.readthedocs.io"
     url      = "https://github.com/spack/spack/archive/refs/heads/develop.tar.gz"
 
